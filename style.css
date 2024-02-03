@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(144, 170, 255);
+}
+h1{
+    color: rgba(102, 248, 102, 0.904);
+    text-align: center;
+    font-size: 50px;
+}
+.entryBox{
+    display: flex;
+    flex-direction: column; /* Display children in a column */
+    align-items: center; /* Center horizontally */
+    margin-top: 20px;
+}
+
+.inputContainer {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.entryBox input{
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    box-shadow: -5px 10px 10px black;
+}
+
+.entryBox button{
+    width: 150px;
+    height: 50px;
+    margin: 20px; 
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px black;
+}
+
+#result{
+    text-align: center;
+    font-size: 25px;
+    color: hsl(from color rgb);
+    font-family: serif;
+    letter-spacing: 5px;
+}
